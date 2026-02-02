@@ -1,0 +1,84 @@
+﻿
+> meetbeat@0.1.0 build
+> next build
+
+npm : 笞 Warning: Nex
+t.js inferred your wo
+rkspace root, but it 
+may not be correct.
+発生場所 行:1 文字:5
++ & { npm run build }
+ 2>&1 | Out-File buil
+d_2.log -Encoding utf
+8
++     ~~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (笞 Warn   
+ ing: Nex...not b    
+e correct.:Strin    g
+) [], RemoteExc    ep
+tion
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+ We detected multiple
+ lockfiles and select
+ed the directory of C
+:\Users\mrmmm\myApp\p
+ackage-lock.json as t
+he root directory.
+ To silence this warn
+ing, set `turbopack.r
+oot` in your Next.js 
+config, or consider r
+emoving one of the lo
+ckfiles if it's not n
+eeded.
+   See https://nextjs
+.org/docs/app/api-ref
+erence/config/next-co
+nfig-js/turbopack#roo
+t-directory for more 
+information.
+ Detected additional 
+lockfiles: 
+   * C:\Users\mrmmm\m
+yApp\MEETBEAT\package
+-lock.json
+
+笆ｲ Next.js 16.1.6 (Turbopack)
+- Environments: .env
+
+笞 The "middleware" f
+ile convention is dep
+recated. Please use "
+proxy" instead. Learn
+ more: https://nextjs
+.org/docs/messages/mi
+ddleware-to-proxy
+  Creating an optimized production build ...
+笨・Compiled successfully in 10.0s
+  Running TypeScript ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/7) ...
+  Generating static pages using 7 workers (1/7) 
+  Generating static pages using 7 workers (3/7) 
+  Generating static pages using 7 workers (5/7) 
+笨・Generating static pages using 7 workers (7/7) in 888.1ms
+  Finalizing page optimization ...
+
+Route (app)
+笏・笳・/
+笏・笳・/_not-found
+笏・笳・/auth/login
+笏・笳・/auth/register
+笏・ﾆ・/dashboard
+
+
+ﾆ・Proxy (Middleware)
+
+笳・ (Static)   prerendered as static content
+ﾆ・ (Dynamic)  server-rendered on demand
+

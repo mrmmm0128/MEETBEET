@@ -1,0 +1,202 @@
+﻿
+> meetbeat@0.1.0 build
+> next build
+
+npm : 笞 Warning: Nex
+t.js inferred your wo
+rkspace root, but it 
+may not be correct.
+発生場所 行:1 文字:5
++ & { npm run build }
+ 2>&1 | Out-File buil
+d.log -Encoding utf8
++     ~~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (笞 Warn   
+ ing: Nex...not b    
+e correct.:Strin    g
+) [], RemoteExc    ep
+tion
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+ We detected multiple
+ lockfiles and select
+ed the directory of C
+:\Users\mrmmm\myApp\p
+ackage-lock.json as t
+he root directory.
+ To silence this warn
+ing, set `turbopack.r
+oot` in your Next.js 
+config, or consider r
+emoving one of the lo
+ckfiles if it's not n
+eeded.
+   See https://nextjs
+.org/docs/app/api-ref
+erence/config/next-co
+nfig-js/turbopack#roo
+t-directory for more 
+information.
+ Detected additional 
+lockfiles: 
+   * C:\Users\mrmmm\m
+yApp\MEETBEAT\package
+-lock.json
+
+笆ｲ Next.js 16.1.6 (Turbopack)
+- Environments: .env
+
+笞 The "middleware" f
+ile convention is dep
+recated. Please use "
+proxy" instead. Learn
+ more: https://nextjs
+.org/docs/messages/mi
+ddleware-to-proxy
+  Creating an optimized production build ...
+
+> Build error occurre
+d
+Error: Turbopack buil
+d failed with 3 error
+s:
+./MEETBEAT/app/global
+s.css
+Error evaluating Node
+.js code
+CssSyntaxError: C:\Us
+ers\mrmmm\myApp\MEETB
+EAT\app\globals.css:5
+0:3: Unknown word ant
+ialiased
+    at Input.error (M
+EETBEAT/node_modules/
+postcss/lib/input.js:
+135:16) [C:\Users\mrm
+mm\myApp\MEETBEAT\.ne
+xt\build\chunks\49177
+_798af461._.js:4651:2
+2]
+    at Parser.unknown
+Word (MEETBEAT/node_m
+odules/postcss/lib/pa
+rser.js:595:22) [C:\U
+sers\mrmmm\myApp\MEET
+BEAT\.next\build\chun
+ks\49177_798af461._.j
+s:5827:26]
+    at Parser.other (
+MEETBEAT/node_modules
+/postcss/lib/parser.j
+s:437:12) [C:\Users\m
+rmmm\myApp\MEETBEAT\.
+next\build\chunks\491
+77_798af461._.js:5689
+:18]
+    at Parser.parse (
+MEETBEAT/node_modules
+/postcss/lib/parser.j
+s:472:16) [C:\Users\m
+rmmm\myApp\MEETBEAT\.
+next\build\chunks\491
+77_798af461._.js:5716
+:26]
+    at parse (MEETBEA
+T/node_modules/postcs
+s/lib/parse.js:11:12)
+ [C:\Users\mrmmm\myAp
+p\MEETBEAT\.next\buil
+d\chunks\49177_798af4
+61._.js:5853:16]
+    at new LazyResult
+ (MEETBEAT/node_modul
+es/postcss/lib/lazy-r
+esult.js:165:16) [C:\
+Users\mrmmm\myApp\MEE
+TBEAT\.next\build\chu
+nks\49177_798af461._.
+js:6105:24]
+    at Processor.proc
+ess (MEETBEAT/node_mo
+dules/postcss/lib/pro
+cessor.js:53:14) [C:\
+Users\mrmmm\myApp\MEE
+TBEAT\.next\build\chu
+nks\49177_798af461._.
+js:6572:20]
+    at transform (tur
+bopack:///[turbopack-
+node]/transforms/post
+css.ts:70:51) [C:\Use
+rs\mrmmm\myApp\MEETBE
+AT\.next\build\chunks
+\[root-of-the-server]
+__db6bbd21._.js:146:5
+2]
+    at run (turbopack
+:///[turbopack-node]/
+ipc/evaluate.ts:92:29
+) [C:\Users\mrmmm\myA
+pp\MEETBEAT\.next\bui
+ld\chunks\[root-of-th
+e-server]__c4ac1741._
+.js:443:37]
+    at run (turbopack
+:///[turbopack-node]/
+ipc/evaluate.ts:115:1
+1) [C:\Users\mrmmm\my
+App\MEETBEAT\.next\bu
+ild\chunks\[root-of-t
+he-server]__c4ac1741.
+_.js:464:25]
+
+Import trace:
+  Client Component Br
+owser:
+    ./MEETBEAT/app/gl
+obals.css [Client Com
+ponent Browser]
+    ./MEETBEAT/app/la
+yout.tsx [Server Comp
+onent]
+
+
+./MEETBEAT/app
+Font file not found: 
+Can't resolve './font
+s/GeistMonoVF.woff'
+
+./MEETBEAT/app
+Font file not found: 
+Can't resolve './font
+s/GeistVF.woff'
+
+    at transform (tur
+bopack:///[turbopack-
+node]/transforms/post
+css.ts:70:51) [C:\Use
+rs\mrmmm\myApp\MEETBE
+AT\.next\build\chunks
+\[root-of-the-server]
+__db6bbd21._.js:146:5
+2])
+    at run (turbopack
+:///[turbopack-node]/
+ipc/evaluate.ts:92:29
+) [C:\Users\mrmmm\myA
+pp\MEETBEAT\.next\bui
+ld\chunks\[root-of-th
+e-server]__c4ac1741._
+.js:443:37])
+    at run (turbopack
+:///[turbopack-node]/
+ipc/evaluate.ts:115:1
+1) [C:\Users\mrmmm\my
+App\MEETBEAT\.next\bu
+ild\chunks\[root-of-t
+he-server]__c4ac1741.
+_.js:464:25])
