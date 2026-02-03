@@ -9,8 +9,8 @@ export default function Home() {
           MEETBEAT
         </h1>
         <p className="text-xl text-zinc-400 animate-in fade-in slide-in-from-bottom-6 duration-1000 delay-200">
-          Connect through music. Find your rhythm. Form your band. <br />
-          <span className="text-sm text-zinc-500">2-weeks free trial available.</span>
+          音楽でつながろう。リズムを見つけよう。バンドを組もう。<br />
+          <span className="text-sm text-zinc-500">2週間の無料トライアル実施中。</span>
         </p>
       </div>
       <div className="flex gap-4 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-300">
